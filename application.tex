@@ -1,0 +1,120 @@
+\documentclass{amsart}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+%\usepackage{booktabs}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[draft,layout=footnote]{fixme}
+\FXRegisterAuthor{ss}{ass}{SS}
+
+\newcommand{\CC}{\mathbb{C}}
+
+\title[\small{Scattering Diagrams and Greedy Bases for rank-2 Cluster Algebras}]
+  {AIM SQuaRE Proposal\\ 
+  \small{Scattering Diagrams and Greedy Bases for rank-2 Cluster Algebras}}
+
+\begin{document}
+  \maketitle
+  
+  \section*{Overview}
+    The goal of this AIM SQuaRE Proposal is to complete a project started at the
+    AMS's Mathematics Research Communities program in June 2014. 
+    
+    Specifically, during the conference on cluster algebras, a study group
+    addressed the problem of understanding the relation among two seemingly
+    different constructions of bases in rank 2: the \emph{greedy basis} of
+    Lee-Li-Zelevinsky and the \emph{theta basis} of
+    Gross-Hacking-Keel-Kontsevich. The group managed to show that the two
+    constructions are equivalent but our bijection is not explicit. The aim for
+    this SQuaRE meeting is to finalize the details in our proof and construct an
+    explicit bijection between the objects involved in each basis.
+  
+  \subsection*{Participants}
+    The participants to the meeting will be 
+    \sswarning{We need to decide on who is coming and move the rest to the next
+      list. The cap is to 6 participants.}
+    \begin{itemize}
+      \item Man Wai Cheung (Ph.D. Candidate, UCSD Department of Mathematics;
+          Visiting student, University of Cambridge)
+      \item Maria Angelica Cueto (NSF Postdoctoral Fellow, Columbia University)
+      \item Mark Gross (Professor, University of Cambridge)
+      \item Gregory Muller (Assistant Professor, University of Michigan)
+      \item Gregg Musiker (Assistant Professor, University of Minnesota)
+      \item Dylan Rupel (Postdoctoral Teaching Associate, Northeastern
+          University)
+      \item Salvatore Stella (Postdoc, North Carolina State University)
+      \item Harold Williams (RTG Postdoctoral Instructor, University of 
+          Texas at Austin) 
+    \end{itemize}
+    In addition to the above the original group included also
+    \begin{itemize}
+      \item
+    \end{itemize}
+    Even if they will not be present at this SQuaRE meeting they remain integral
+    member of this study group. 
+    \sswarning{Shall we mention that we might call those that will not attend to
+        work with the rest of the participants remotely?}
+  
+  \subsection*{Timeline}
+    \sswarning{The online form does not say anywere that we need to give a time
+      for this SQuaRE meeting but I guess it is in our best interest to do so.}
+
+  \section*{Project description}
+
+    A central issue in the theory of cluster algebras is to define a natural
+    ``canonical'' basis of a cluster algebra.  Indeed, the original inspiration
+    for the discovery of cluster algebras was the recognition of certain
+    combinatorial structures underlying Lusztig's dual canonical basis in the
+    coordinate ring of a unipotent group.  Thus one of the goals of the subject
+    is to understand this particular basis on a more abstract level and
+    generalize it to other interesting cluster algebras.  There are by now many
+    different approaches to this problem, leading in fact to a number of
+    different bases in any given cluster algebra.
+
+    Our goal and main accomplishment during the MRC program  was to show the
+    equivalence of two seemingly different constructions of bases in rank 2
+    cluster algebras.  One of these, the \emph{greedy basis} of Lee-Li-Zelevinsky, is
+    described in terms of certain combinatorial objects called compatible pairs.
+    Each greedy basis element is associated with a Dyck path in some rectangular
+    grid, and a compatible pair is a configuration of subpaths satisfying
+    certain conditions.  The expansion of the basis element in an initial
+    cluster is essentially a generating function of compatible pairs.  The
+    motivation for the definition is to guarantee certain desired positivity
+    properties in a minimal, ``greedy'' way.
+
+    More recently, Gross-Hacking-Keel-Kontsevich introduced another basis, the
+    \emph{theta basis}, based on ideas coming from mirror symmetry.  Specifically, the
+    basis is defined in terms of combinatorial objects, scattering diagrams and
+    broken lines, which heuristically are combinatorial avatars of various
+    aspects of the SYZ fibration of the mirror cluster variety.  
+    
+    In rank 2, it was known that for the cluster structure associated with the
+    2-Kronecker quiver these bases coincide, raising the question of extending
+    this to arbitrary rank 2 cluster algebras.
+
+    To prove this, we exploited certain uniqueness properties of the Newton
+    polygons of greedy basis elements.  Ultimately, one can show that any basis
+    satisfying certain strong positivity properties and whose Newton polygons
+    lie within certain bounds must coincide with the greedy basis.  In turn, we
+    found we could show that the Newton polygons of theta basis elements
+    satisfied these bounds, which in combination with positivity results of
+    Gross-Hacking-Keel-Kontsevich lead to the result. 
+    
+    Our construction, even though succeeds in establishing the desired
+    equivalence, it is not entirely satisfactory. Ideally, given an element $x$
+    in these basis, one would like to have an explicit bijection relating the 
+    broken lines, appearing when considering $x$ as an element of a theta basis,
+    to the compatible pairs that build $x$ as an element of a greedy basis.
+
+    Such a bijection would yield new insights into the combinatorial structures
+    of the theta basis. In particular, from partial results that we already
+    have, in some cases we can give direct combinatorial interpretations in
+    terms of compatible pairs to previously mysterious coefficients appearing in
+    rank 2 scattering diagrams.
+    
+    This SQuaRE proposal is about constructing this explicit bijection.
+    \sswarning{I do not like this conclusion but I can't come up with anything
+      nicer right now.}
+
+\end{document}
